@@ -1,0 +1,68 @@
+#startbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 30%;
+    flex-wrap: wrap;
+}
+
+.HAC{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1%;
+    padding-right: 3%;
+    align-items: center;
+    font-size: larger;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+#btn1{
+    background-color: rgb(50, 50, 239);
+    color: white;
+    width: 130px;
+    height: 43px;
+    border: 1px solid rgb(50, 50, 239);
+    border-radius: 5px;
+}
+
+#btn2{
+    background-color: white;
+    color: blue;
+    margin-left: 4px;
+    width: 130px;
+    height: 43px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+td{
+    border:1px solid black;
+    width: 90px;
+    height: 15px;
+    padding: 2%;
+  }
+
+  #bottom{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  #lastlinks{
+    margin-left: 40%;
+    align-content: center;
+    color: rgb(115, 115, 240);
+  }
