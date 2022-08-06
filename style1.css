@@ -66,3 +66,8 @@ td{
     align-content: center;
     color: rgb(115, 115, 240);
   }
+
+  #heading:active{
+    display: flex;
+    justify-content: center;
+  }
